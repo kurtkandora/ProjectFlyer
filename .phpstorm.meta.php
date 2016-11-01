@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2016-10-11.
+    * Generated on 2016-10-31.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -27,7 +27,6 @@ namespace PHPSTORM_META {
             'db.factory' instanceof \Illuminate\Database\Connectors\ConnectionFactory,
             'db' instanceof \Illuminate\Database\DatabaseManager,
             'db.connection' instanceof \Illuminate\Database\MySqlConnection,
-            'encrypter' instanceof \Illuminate\Encryption\Encrypter,
             'files' instanceof \Illuminate\Filesystem\Filesystem,
             'filesystem' instanceof \Illuminate\Filesystem\FilesystemManager,
             'filesystem.disk' instanceof \Illuminate\Filesystem\FilesystemAdapter,
@@ -122,6 +121,8 @@ namespace PHPSTORM_META {
             'translation.loader' instanceof \Illuminate\Translation\FileLoader,
             'translator' instanceof \Illuminate\Translation\Translator,
             'validation.presence' instanceof \Illuminate\Validation\DatabasePresenceVerifier,
+            'html' instanceof \Collective\Html\HtmlBuilder,
+            'form' instanceof \Collective\Html\FormBuilder,
         ],
         \Illuminate\Contracts\Container\Container::make('') => [
             '' == '@',
@@ -141,7 +142,6 @@ namespace PHPSTORM_META {
             'db.factory' instanceof \Illuminate\Database\Connectors\ConnectionFactory,
             'db' instanceof \Illuminate\Database\DatabaseManager,
             'db.connection' instanceof \Illuminate\Database\MySqlConnection,
-            'encrypter' instanceof \Illuminate\Encryption\Encrypter,
             'files' instanceof \Illuminate\Filesystem\Filesystem,
             'filesystem' instanceof \Illuminate\Filesystem\FilesystemManager,
             'filesystem.disk' instanceof \Illuminate\Filesystem\FilesystemAdapter,
@@ -236,6 +236,8 @@ namespace PHPSTORM_META {
             'translation.loader' instanceof \Illuminate\Translation\FileLoader,
             'translator' instanceof \Illuminate\Translation\Translator,
             'validation.presence' instanceof \Illuminate\Validation\DatabasePresenceVerifier,
+            'html' instanceof \Collective\Html\HtmlBuilder,
+            'form' instanceof \Collective\Html\FormBuilder,
         ],
         \App::make('') => [
             '' == '@',
@@ -255,7 +257,6 @@ namespace PHPSTORM_META {
             'db.factory' instanceof \Illuminate\Database\Connectors\ConnectionFactory,
             'db' instanceof \Illuminate\Database\DatabaseManager,
             'db.connection' instanceof \Illuminate\Database\MySqlConnection,
-            'encrypter' instanceof \Illuminate\Encryption\Encrypter,
             'files' instanceof \Illuminate\Filesystem\Filesystem,
             'filesystem' instanceof \Illuminate\Filesystem\FilesystemManager,
             'filesystem.disk' instanceof \Illuminate\Filesystem\FilesystemAdapter,
@@ -350,6 +351,8 @@ namespace PHPSTORM_META {
             'translation.loader' instanceof \Illuminate\Translation\FileLoader,
             'translator' instanceof \Illuminate\Translation\Translator,
             'validation.presence' instanceof \Illuminate\Validation\DatabasePresenceVerifier,
+            'html' instanceof \Collective\Html\HtmlBuilder,
+            'form' instanceof \Collective\Html\FormBuilder,
         ],
         \app('') => [
             '' == '@',
@@ -369,7 +372,6 @@ namespace PHPSTORM_META {
             'db.factory' instanceof \Illuminate\Database\Connectors\ConnectionFactory,
             'db' instanceof \Illuminate\Database\DatabaseManager,
             'db.connection' instanceof \Illuminate\Database\MySqlConnection,
-            'encrypter' instanceof \Illuminate\Encryption\Encrypter,
             'files' instanceof \Illuminate\Filesystem\Filesystem,
             'filesystem' instanceof \Illuminate\Filesystem\FilesystemManager,
             'filesystem.disk' instanceof \Illuminate\Filesystem\FilesystemAdapter,
@@ -464,6 +466,8 @@ namespace PHPSTORM_META {
             'translation.loader' instanceof \Illuminate\Translation\FileLoader,
             'translator' instanceof \Illuminate\Translation\Translator,
             'validation.presence' instanceof \Illuminate\Validation\DatabasePresenceVerifier,
+            'html' instanceof \Collective\Html\HtmlBuilder,
+            'form' instanceof \Collective\Html\FormBuilder,
         ],
     ];
 }
